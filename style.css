@@ -102,3 +102,18 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+/* ===== FIX RESUME BUTTON COLOR ISSUE (MOBILE & DESKTOP) ===== */
+.btn-resume,
+.btn-resume:visited,
+.btn-resume:focus,
+.btn-resume:active {
+    background-color: #ffd700 !important;
+    color: #000 !important;
+    border: none;
+}
+
+.btn-resume:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
