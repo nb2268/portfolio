@@ -117,3 +117,16 @@ footer {
     background-color: #fff !important;
     color: #000 !important;
 }
+
+/* ===== MOBILE PDF RETURN COLOR FIX ===== */
+a.btn-resume,
+a.btn-resume:link,
+a.btn-resume:visited,
+a.btn-resume:focus,
+a.btn-resume:active,
+a.btn-resume:hover {
+    background-color: #ffd700 !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    -webkit-text-fill-color: #000 !important;
+}
